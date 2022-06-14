@@ -1,0 +1,8 @@
+docker start -i optimistic_lederberg
+apt-get update
+apt-get -y install nano
+nano /usr/src/app/index.js
+
+pasted text: console.log('Hello World')
+
+command: ctrl+O to writeout, enter, and ctrl+X to exit
